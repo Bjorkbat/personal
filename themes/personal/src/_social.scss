@@ -1,0 +1,22 @@
+a.social {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: $coral-red;
+	color: #FFF;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	&.facebook {
+		background-color: #4267b2;
+	}
+
+	&.linkedin {
+		background-color: #0077B5;
+	}
+
+	&.twitter {
+		background-color: #1DA1F2;
+	}
+}
