@@ -1,0 +1,74 @@
+.navbar {
+  background-color: #FFF;
+  width: 100%;
+  border-bottom: 1px solid #DDD; }
+  .navbar .container {
+    display: flex;
+    align-items: center; }
+  .navbar a {
+    color: #FB3640; }
+  .navbar ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+    .navbar ul li {
+      float: left;
+      margin-bottom: 0; }
+      .navbar ul li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        transition: all 0.4s ease; }
+        .navbar ul li a:hover {
+          color: white;
+          background: #FB3640; }
+  .navbar.top-navbar {
+    position: fixed;
+    top: 0;
+    font-weight: bold; }
+    .navbar.top-navbar .brand {
+      position: relative;
+      float: left;
+      margin: 0 16px;
+      display: inline-block;
+      font-size: 1.2em;
+      color: rgba(8, 61, 119, 0.6);
+      transition: all 0.4s ease; }
+      .navbar.top-navbar .brand::before {
+        content: "Bjorkbat";
+        position: absolute;
+        left: -10px;
+        color: rgba(251, 54, 64, 0.6);
+        transition: all 0.4s ease; }
+      .navbar.top-navbar .brand::after {
+        position: absolute;
+        content: "Bjorkbat";
+        right: -10px;
+        color: rgba(244, 211, 94, 0.6);
+        transition: all 0.4s ease; }
+      .navbar.top-navbar .brand:hover {
+        color: #333; }
+        .navbar.top-navbar .brand:hover::before {
+          left: 0px;
+          color: transparent; }
+        .navbar.top-navbar .brand:hover::after {
+          right: 0px;
+          color: transparent; }
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #333; }
+
+h1 {
+  font-weight: bold; }
+
+a {
+  color: #23A8FC; }
+
+body {
+  background-color: #F7F8F9;
+  padding-top: 50px; }
+
+/*# sourceMappingURL=main.css.map */
