@@ -57,6 +57,22 @@
           right: 0px;
           color: transparent; }
 
+a.social {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #FB3640;
+  color: #FFF;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
+  a.social.facebook {
+    background-color: #4267b2; }
+  a.social.linkedin {
+    background-color: #0077B5; }
+  a.social.twitter {
+    background-color: #1DA1F2; }
+
 body {
   font-family: "Nunito", sans-serif;
   color: #333; }
@@ -67,8 +83,45 @@ h1 {
 a {
   color: #23A8FC; }
 
+html, body {
+  height: 100%; }
+
 body {
   background-color: #F7F8F9;
   padding-top: 50px; }
+
+.full-height {
+  height: 100%; }
+
+.full-width {
+  width: 100%; }
+
+.center-horizontal > * {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.full-center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+form {
+  border: 1px solid #DDD;
+  padding: 20px;
+  margin: 20px auto;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #BBB; }
+  form.narrow {
+    max-width: 400px; }
+
+button {
+  background-color: #FB3640;
+  border-color: #E5323B;
+  transition: all 0.4s ease; }
+  button:hover {
+    background-color: #E5323B;
+    border-color: #ce2d35; }
 
 /*# sourceMappingURL=main.css.map */

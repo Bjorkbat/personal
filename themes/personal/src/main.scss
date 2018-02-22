@@ -1,8 +1,62 @@
 @import 'colors';
 @import 'navbar';
+@import 'social';
 @import 'typography';
+
+html, body {
+	height: 100%;
+}
 
 body {
 	background-color: $ghost-white;
 	padding-top: 50px;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.center-horizontal {
+
+	& > * {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+}
+
+.full-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+form {
+	border: 1px solid #DDD;
+	padding: 20px;
+	margin: 20px auto;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px #BBB;
+
+	&.narrow {
+		max-width: 400px;
+	}
+
+}
+
+button {
+	background-color: $coral-red;
+	border-color: $coral-darker;
+	transition: all 0.4s ease;
+
+	&:hover {
+		background-color: $coral-darker;
+		border-color: $coral-darkest;
+	}
 }
