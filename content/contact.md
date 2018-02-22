@@ -11,9 +11,9 @@ menu: "main"
 Just use the form below to shoot me an email.  You can also find me on social media (and hear my opinions on contemporary social and political issues.  Hey, you've been warned)
 
 {{< div >}}
-{{< social-link platform="facebook" >}}
-{{< social-link platform="linkedin" >}}
-{{< social-link platform="twitter" >}}
+{{< social-link platform="facebook" url="https://www.facebook.com/john.borden.5203" >}}
+{{< social-link platform="linkedin" url="https://www.linkedin.com/in/bjorkbat/" >}}
+{{< social-link platform="twitter" url="https://twitter.com/Bjorkbat" >}}
 {{</div >}}
 
 ---
