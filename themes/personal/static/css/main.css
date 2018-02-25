@@ -28,7 +28,7 @@
   margin: 0 auto;
   width: 75%; }
   .blog-content h2 {
-    border-bottom: 2px solid #FFBC30; }
+    border-bottom: 2px solid #F4D35E; }
 
 .img-circle {
   border-radius: 100%; }
@@ -125,6 +125,9 @@ body {
 .h1 {
   font-size: 4.6rem; }
 
+.h2 {
+  font-size: 3.6rem; }
+
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -141,6 +144,15 @@ a {
 
 p em {
   color: #083D77; }
+
+.text-blue {
+  color: #083D77; }
+
+.text-red {
+  color: #FB3640; }
+
+.text-yellow {
+  color: #F4D35E; }
 
 html, body {
   height: 100%; }

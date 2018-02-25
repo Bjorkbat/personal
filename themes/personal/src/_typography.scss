@@ -9,6 +9,10 @@ body {
 	font-size: 4.6rem;
 }
 
+.h2 {
+	font-size: 3.6rem;
+}
+
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -31,4 +35,16 @@ p {
 	em {
 		color: $dark-cerulean;
 	}
+}
+
+.text-blue {
+	color: $dark-cerulean;
+}
+
+.text-red {
+	color: $coral-red;
+}
+
+.text-yellow {
+	color: $stil-de-grain-yellow;
 }
