@@ -4,8 +4,12 @@
 
 		<div class="blog-header">
 			<h1>{{ .Title }}</h1>
-			<h4><img class="img-circle" src="https://www.gravatar.com/avatar/{{ md5 .Params.Email }}?s=100" width="50px;">
-				{{ .Params.Author }} | {{ .Date.Format "January 2, 2006" }}</h4>
+			<div class="author-summary">
+				<img class="img-circle" src="https://www.gravatar.com/avatar/{{ md5 .Params.Email }}?s=100" style="width: 50px;">
+				<h4>{{ .Params.Author }} | {{ .Date.Format "January 2, 2006" }}</h4>
+			</div>
+
+			<div class="seperator"></div>
 		</div>
 
 		{{ .Content }}
