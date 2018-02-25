@@ -1,4 +1,6 @@
+@import 'blog';
 @import 'colors';
+@import 'images';
 @import 'navbar';
 @import 'social';
 @import 'typography';
@@ -58,5 +60,22 @@ button {
 	&:hover {
 		background-color: $coral-darker;
 		border-color: $coral-darkest;
+	}
+}
+
+.jumbotron {
+	width: 100%;
+	background-color: $coral-red;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+
+	h1 {
+		font-size: 6.4rem;
+	}
+
+	p {
+		font-size: 1.8rem;
 	}
 }

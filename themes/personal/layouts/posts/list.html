@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="jumbotron blog-jumbotron">
+	<div class="container">
+		{{ .Content }}
+	</div>
+</div>
+
+<div class="container">
+
+	{{ $section := .Paginate (where .Data.Pages "Section" .Section) }}
+
+	{{ range $section.Pages }}
+	{{ .Render "summary" }}
+	{{ end }}
+
+	{{ template "_internal/pagination.html" . }}
+
+</div>
+{{ end }}

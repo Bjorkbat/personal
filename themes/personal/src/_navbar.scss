@@ -41,43 +41,53 @@
 		position: fixed;
 		top: 0;
 		font-weight: bold;
+		z-index: 1000;
 
 		.brand {
+			font-family: "Nunito", sans-serif;
+			font-weight: 200;
 			position: relative;
 			float: left;
 			margin: 0 16px;
 			display: inline-block;
 			font-size: 1.2em;
-			color: rgba(8, 61, 119, 0.6);
+			color: white;
+			background-color: rgba(8, 61, 119, 0.8);
 			transition: all 0.4s ease;
 
 			&::before {
 				content: "Bjorkbat";
 				position: absolute;
-				left: -10px;
-				color: rgba(251, 54, 64, 0.6);
+				top: -5px;
+				left: -5px;
+				background-color: rgba(251, 54, 64, 0.8);
 				transition: all 0.4s ease;
 			}
 
 			&::after {
 				position: absolute;
 				content: "Bjorkbat";
-				right: -10px;
-				color: rgba(244, 211, 94, 0.6);
+				right: -5px;
+				bottom: -5px;
+				background-color: rgba(244, 211, 94, 0.8);
 				transition: all 0.4s ease;
+				z-index: -100;
 			}
 
 			&:hover {
+				background-color: transparent;
 				color: #333;
 
 				&::before {
 					left: 0px;
-					color: transparent;
+					top: 0px;
+					background-color: transparent;
 				}
 
 				&::after {
 					right: 0px;
-					color: transparent;
+					bottom: 0px;
+					background-color: transparent;
 				}
 			}
 		}

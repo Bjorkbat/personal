@@ -1,0 +1,10 @@
+<div class="post-summary">
+<h2 class="h1">{{ .Title }}</h2>
+<p>{{ .Summary }}</p>
+<div class="author-summary">
+	<img class="img-circle" src="https://www.gravatar.com/avatar/{{ md5 .Params.Email }}?s=100" width="30px;" style="margin-right: 10px">
+	<h4>{{ .Params.Author }} | {{ .Date.Format "January 2, 2006" }}</h4>
+</div>
+<a href="{{ .URL }}" class="true-link">Read More</a>
+<hr />
+</div>
