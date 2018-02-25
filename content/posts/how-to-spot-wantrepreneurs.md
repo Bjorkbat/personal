@@ -1,7 +1,7 @@
 ---
 title: "How to Spot Wantrepreneurs"
 date: 2018-02-24T19:01:46-07:00
-draft: true
+draft: false
 author: "John Borden"
 email: "bjorkbat@gmail.com"
 ---
