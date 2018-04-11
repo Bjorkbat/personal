@@ -2,33 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>_Index on Bjorkbat</title>
-    <link>http://example.org/</link>
+    <link>https://bjorkbat.me/</link>
     <description>Recent content in _Index on Bjorkbat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Feb 2018 19:38:06 -0700</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bjorkbat.me/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Get in Touch</title>
-      <link>http://example.org/get-in-touch/</link>
-      <pubDate>Thu, 22 Feb 2018 16:40:20 -0700</pubDate>
-      
-      <guid>http://example.org/get-in-touch/</guid>
-      <description>A Letter? How Exciting! Looks like I got your email. Expect to hear from me shortly.   </description>
-    </item>
     
     <item>
       <title>Contact</title>
-      <link>http://example.org/contact/</link>
+      <link>https://bjorkbat.me/contact/</link>
       <pubDate>Sun, 18 Feb 2018 20:09:08 -0700</pubDate>
       
-      <guid>http://example.org/contact/</guid>
-      <description>Contact Me Just use the form below to shoot me an email. You can also find me on social media (and hear my opinions on contemporary social and political issues. Hey, you&amp;rsquo;ve been warned)
-       Email Message  Send  
+      <guid>https://bjorkbat.me/contact/</guid>
+      <description>Contact Me Below are the links to my usual social media haunts. If you want to get in contact via email, then best way to do so would be through Glyph Glyder.
+       
  </description>
+    </item>
+    
+    <item>
+      <title>How to Spot Wantrepreneurs</title>
+      <link>https://bjorkbat.me/posts/how-to-spot-wantrepreneurs/</link>
+      <pubDate>Sat, 24 Feb 2018 19:01:46 -0700</pubDate>
+      
+      <guid>https://bjorkbat.me/posts/how-to-spot-wantrepreneurs/</guid>
+      <description>Did you know that Wordpress, the software that powers roughly 1/4th of all websites on the internet, is open-source? This means a lot of things, but on a practical level it means people can just download all the code that powers a Wordpress site, put it on their own server, create their own Wordpress site, and worry only about the costs of keeping the server running. You don&amp;rsquo;t have to pay for the code.</description>
+    </item>
+    
+    <item>
+      <title>Get in Touch</title>
+      <link>https://bjorkbat.me/get-in-touch/</link>
+      <pubDate>Thu, 22 Feb 2018 16:40:20 -0700</pubDate>
+      
+      <guid>https://bjorkbat.me/get-in-touch/</guid>
+      <description>A Letter? How Exciting! Looks like I got your email. Expect to hear from me shortly.   </description>
     </item>
     
   </channel>

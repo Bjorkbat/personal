@@ -3,27 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/get-in-touch/</loc>
-    <lastmod>2018-02-22T16:40:20-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/contact/</loc>
+    <loc>https://bjorkbat.me/contact/</loc>
     <lastmod>2018-02-18T20:09:08-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://bjorkbat.me/posts/</loc>
+    <lastmod>2018-02-24T21:27:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bjorkbat.me/posts/how-to-spot-wantrepreneurs/</loc>
+    <lastmod>2018-02-24T19:01:46-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bjorkbat.me/get-in-touch/</loc>
+    <lastmod>2018-02-22T16:40:20-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bjorkbat.me/</loc>
     <lastmod>2018-02-18T19:38:06-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://bjorkbat.me/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://bjorkbat.me/tags/</loc>
     <priority>0</priority>
   </url>
   
