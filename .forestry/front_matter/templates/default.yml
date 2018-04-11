@@ -1,0 +1,30 @@
+---
+pages:
+- about.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: text
+  hidden: false
+  default: 
+- name: draft
+  label: Draft
+  type: boolean
+  hidden: false
+  default: true
+- name: author
+  label: Author
+  type: text
+  hidden: false
+  default: John Borden
+- name: email
+  label: Email
+  type: text
+  hidden: false
+  default: bjorkbat@gmail.com
