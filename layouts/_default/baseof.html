@@ -4,19 +4,14 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		{{/* Normalize CSS */}}
-		<link rel="stylesheet" href="{{ `css/normalize.css` | absURL }}">
-
-		{{/* Milligram CSS */}}
-		<link rel="stylesheet" href="{{ `css/milligram.min.css` | absURL }}">
-
 		{{/* Font Awesome */}}
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
 		{{/* Google Fonts */}}
 		<link href="https://fonts.googleapis.com/css?family=Nunito:200,300|Open+Sans" rel="stylesheet">
-
-		<link href="{{ `css/main.css` | absURL }}" rel="stylesheet" type="text/css" />
+		
+		{{ $style := resources.Get "style.css" }}
+		<link rel="stylesheet" href="{{ $style.Permalink }}"> 
 
 		{{ .Hugo.Generator }}
 
